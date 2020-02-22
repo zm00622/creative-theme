@@ -314,11 +314,12 @@ a {
   
   /* Social Icons */
   .col-social {
+    display: flex;
+    justify-content: center;
     padding-left: 25px;
-    margin-left: 0px;
+    /* margin-left: 0px; */
     background: rgba(66, 64, 64, 0.7);
-    margin-left: 15px;
-    margin-top: 5%;
+    /* margin-left: 15px; */
     font-size: 25px;
     color: #9a9b9c;
   } 
@@ -326,7 +327,7 @@ a {
   .col-social i {
     font-size: 40px;
     color: #9a9b9c;
-    padding: 5%;
+    padding-left: 5px;
     /* Center and wrap Icons */
     /* display: flex;
     margin: auto;
@@ -417,17 +418,24 @@ a {
 
   /* Social Icons */
   .col-social {
+    display: flex;
+    justify-content: center;
     padding-left: 25px;
-    margin-left: 0px;
-    background: rgba(66, 64, 64, 0.8);
-    margin-top: 5%;
+    /* margin-left: 0px; */
+    background: rgba(66, 64, 64, 0.7);
+    /* margin-left: 15px; */
     font-size: 25px;
     color: #9a9b9c;
   } 
-    
+
   .col-social i {
-    font-size: 25px;
+    font-size: 40px;
     color: #9a9b9c;
+    padding-left: 5px;
+    /* Center and wrap Icons */
+    /* display: flex;
+    margin: auto;
+    justify-content: center; */
   }
     
   .col-social i:hover {
@@ -514,26 +522,27 @@ a {
     margin-right: 5px;
   }
 
-  /* Social Icons */
-  .col-social {
-    padding-left: 25px;
-    margin-left: 0px;
-    background: rgba(66, 64, 64, 0.8);
-    margin-left: 15px;
-    margin-top: 5%;
-    font-size: 25px;
-    color: #9a9b9c;
-  } 
-  
-  .col-social i {
-    font-size: 25px;
-    color: #9a9b9c;
-    padding: 5%;
-    /* Center and wrap Icons */
-    /* display: flex;
-    margin: auto;
-    justify-content: center; */
-  }
+ /* Social Icons */
+ .col-social {
+  display: flex;
+  justify-content: center;
+  padding-left: 25px;
+  /* margin-left: 0px; */
+  background: rgba(66, 64, 64, 0.7);
+  /* margin-left: 15px; */
+  font-size: 25px;
+  color: #9a9b9c;
+} 
+
+.col-social i {
+  font-size: 40px;
+  color: #9a9b9c;
+  padding-left: 5px;
+  /* Center and wrap Icons */
+  /* display: flex;
+  margin: auto;
+  justify-content: center; */
+}
     
   .col-social i:hover {
     color: #ffffff;
@@ -628,25 +637,27 @@ a {
     margin-right: 3px;
   }
 
-  /* Social Icons */
-  .col-social {
-    padding-left: 25px;
-    margin-left: 0px;
-    background: rgba(66, 64, 64, 0.8);
-    margin-top: 5%;
-    font-size: 25px;
-    color: #9a9b9c;
-  } 
-  
-  .col-social i {
-    font-size: 25px;
-    color: #9a9b9c;
-    padding: 5%;
-    /* Center and wrap Icons */
-    /* display: flex;
-    margin: auto;
-    justify-content: center; */
-  }
+ /* Social Icons */
+ .col-social {
+  display: flex;
+  justify-content: center;
+  padding-left: 25px;
+  /* margin-left: 0px; */
+  background: rgba(66, 64, 64, 0.7);
+  /* margin-left: 15px; */
+  font-size: 25px;
+  color: #9a9b9c;
+} 
+
+.col-social i {
+  font-size: 40px;
+  color: #9a9b9c;
+  padding-left: 5px;
+  /* Center and wrap Icons */
+  /* display: flex;
+  margin: auto;
+  justify-content: center; */
+}
     
   .col-social i:hover {
     color: #ffffff;
@@ -657,6 +668,8 @@ a {
     background: rgba(66, 64, 64, 0.9);
     text-align: center;
     margin-top: 5%;
+    margin-left: 13px;
+    marign-right: 13px;
     font-size: 25px;
     color: white;
   }
@@ -689,11 +702,13 @@ a {
 .widecard {
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 20px;
   background: rgba(24, 24, 24, 0.90);
   border:0px solid #9a9b9c;
   display: flex;
-  margin:30px 0px 30px 0px;
+  margin:20px 0px 20px 0px;
   box-shadow: 0px 20px 25px black;
 }
 
