@@ -1,3 +1,4 @@
+  
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
 
 * {
@@ -314,12 +315,12 @@ a {
   
   /* Social Icons */
   .col-social {
-    display: flex;
-    justify-content: center;
     padding-left: 25px;
-    /* margin-left: 0px; */
+    padding-right: 25px;
+    margin-left: 0px;
     background: rgba(66, 64, 64, 0.7);
-    /* margin-left: 15px; */
+    margin-left: 15px;
+    margin-top: 5%;
     font-size: 25px;
     color: #9a9b9c;
   } 
@@ -327,7 +328,8 @@ a {
   .col-social i {
     font-size: 40px;
     color: #9a9b9c;
-    padding-left: 5px;
+    display: flex;
+    padding: 10%;
     /* Center and wrap Icons */
     /* display: flex;
     margin: auto;
@@ -418,24 +420,20 @@ a {
 
   /* Social Icons */
   .col-social {
-    display: flex;
-    justify-content: center;
     padding-left: 25px;
-    /* margin-left: 0px; */
-    background: rgba(66, 64, 64, 0.7);
-    /* margin-left: 15px; */
+    padding-right: 25px;
+    margin-left: 0px;
+    background: rgba(66, 64, 64, 0.8);
+    margin-top: 5%;
     font-size: 25px;
     color: #9a9b9c;
   } 
-
+    
   .col-social i {
-    font-size: 40px;
+    font-size: 25px;
     color: #9a9b9c;
-    padding-left: 5px;
-    /* Center and wrap Icons */
-    /* display: flex;
-    margin: auto;
-    justify-content: center; */
+    display: flex;
+    padding: 10%;
   }
     
   .col-social i:hover {
@@ -522,27 +520,29 @@ a {
     margin-right: 5px;
   }
 
- /* Social Icons */
- .col-social {
-  display: flex;
-  justify-content: center;
-  padding-left: 25px;
-  /* margin-left: 0px; */
-  background: rgba(66, 64, 64, 0.7);
-  /* margin-left: 15px; */
-  font-size: 25px;
-  color: #9a9b9c;
-} 
-
-.col-social i {
-  font-size: 40px;
-  color: #9a9b9c;
-  padding-left: 5px;
-  /* Center and wrap Icons */
-  /* display: flex;
-  margin: auto;
-  justify-content: center; */
-}
+  /* Social Icons */
+  .col-social {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    background: rgba(66, 64, 64, 0.8);
+    margin-left: 15px;
+    margin-top: 5%;
+    font-size: 25px;
+    color: #9a9b9c;
+  } 
+  
+  .col-social i {
+    font-size: 25px;
+    color: #9a9b9c;
+    display: flex;
+    padding: 10%;
+    /* padding: 5%; */
+    /* Center and wrap Icons */
+    /* display: flex;
+    margin: auto;
+    justify-content: center; */
+  }
     
   .col-social i:hover {
     color: #ffffff;
@@ -637,27 +637,28 @@ a {
     margin-right: 3px;
   }
 
- /* Social Icons */
- .col-social {
-  display: flex;
-  justify-content: center;
-  padding-left: 25px;
-  /* margin-left: 0px; */
-  background: rgba(66, 64, 64, 0.7);
-  /* margin-left: 15px; */
-  font-size: 25px;
-  color: #9a9b9c;
-} 
-
-.col-social i {
-  font-size: 40px;
-  color: #9a9b9c;
-  padding-left: 5px;
-  /* Center and wrap Icons */
-  /* display: flex;
-  margin: auto;
-  justify-content: center; */
-}
+  /* Social Icons */
+  .col-social {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    background: rgba(66, 64, 64, 0.8);
+    margin-top: 5%;
+    font-size: 25px;
+    color: #9a9b9c;
+  } 
+  
+  .col-social i {
+    font-size: 25px;
+    color: #9a9b9c;
+    display: flex;
+    padding: 10%;
+    /* padding: 5%; */
+    /* Center and wrap Icons */
+    /* display: flex;
+    margin: auto;
+    justify-content: center; */
+  }
     
   .col-social i:hover {
     color: #ffffff;
@@ -668,8 +669,6 @@ a {
     background: rgba(66, 64, 64, 0.9);
     text-align: center;
     margin-top: 5%;
-    margin-left: 13px;
-    marign-right: 13px;
     font-size: 25px;
     color: white;
   }
@@ -695,9 +694,6 @@ a {
   box-shadow: 0px 20px 25px black;
 }
 
-/* .skills {
-  margin: 60px 10px 30px 10px;
-} */
 
 .widecard {
   padding-left: 20px;
